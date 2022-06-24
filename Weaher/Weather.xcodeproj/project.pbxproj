@@ -13,6 +13,11 @@
 		AACE5288285EF9E300B462E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AACE5286285EF9E300B462E8 /* Main.storyboard */; };
 		AACE528A285EF9E300B462E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AACE5289285EF9E300B462E8 /* Assets.xcassets */; };
 		AACE528D285EF9E300B462E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AACE528B285EF9E300B462E8 /* LaunchScreen.storyboard */; };
+		AAEF9743285F70C6001472E5 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF9742285F70C6001472E5 /* GreenViewController.swift */; };
+		AAEF9745285F7C7D001472E5 /* UIViewController+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF9744285F7C7D001472E5 /* UIViewController+Extention.swift */; };
+		AAEF9747285F88E3001472E5 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF9746285F88E3001472E5 /* TabBarViewController.swift */; };
+		AAEF9749285F8F99001472E5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF9748285F8F99001472E5 /* TableViewController.swift */; };
+		AAEF974B285F9473001472E5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEF974A285F9473001472E5 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		AACE5289285EF9E300B462E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AACE528C285EF9E300B462E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AACE528E285EF9E300B462E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAEF9742285F70C6001472E5 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		AAEF9744285F7C7D001472E5 /* UIViewController+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extention.swift"; sourceTree = "<group>"; };
+		AAEF9746285F88E3001472E5 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		AAEF9748285F8F99001472E5 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		AAEF974A285F9473001472E5 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,8 @@
 		AACE527F285EF9E300B462E8 /* Weaher */ = {
 			isa = PBXGroup;
 			children = (
+				AAEF974A285F9473001472E5 /* TableViewCell.swift */,
+				AAEF9748285F8F99001472E5 /* TableViewController.swift */,
 				AACE5280285EF9E300B462E8 /* AppDelegate.swift */,
 				AACE5282285EF9E300B462E8 /* SceneDelegate.swift */,
 				AACE5284285EF9E300B462E8 /* ViewController.swift */,
@@ -63,6 +75,9 @@
 				AACE5289285EF9E300B462E8 /* Assets.xcassets */,
 				AACE528B285EF9E300B462E8 /* LaunchScreen.storyboard */,
 				AACE528E285EF9E300B462E8 /* Info.plist */,
+				AAEF9742285F70C6001472E5 /* GreenViewController.swift */,
+				AAEF9744285F7C7D001472E5 /* UIViewController+Extention.swift */,
+				AAEF9746285F88E3001472E5 /* TabBarViewController.swift */,
 			);
 			path = Weaher;
 			sourceTree = "<group>";
@@ -138,8 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAEF9743285F70C6001472E5 /* GreenViewController.swift in Sources */,
+				AAEF974B285F9473001472E5 /* TableViewCell.swift in Sources */,
+				AAEF9749285F8F99001472E5 /* TableViewController.swift in Sources */,
 				AACE5285285EF9E300B462E8 /* ViewController.swift in Sources */,
 				AACE5281285EF9E300B462E8 /* AppDelegate.swift in Sources */,
+				AAEF9745285F7C7D001472E5 /* UIViewController+Extention.swift in Sources */,
+				AAEF9747285F88E3001472E5 /* TabBarViewController.swift in Sources */,
 				AACE5283285EF9E300B462E8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +307,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55M445P9KQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Weaher/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +335,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55M445P9KQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Weaher/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
